@@ -1,0 +1,17 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.httr-oauth
+.DS_Store
+
+inputs/datos/
+outputs/
+*.csv
+*.xlsx
+*.rds
+*.RDS
+*.zip
+*.gz
+*.tar
