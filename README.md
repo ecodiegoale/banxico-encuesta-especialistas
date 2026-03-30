@@ -114,7 +114,7 @@ Réplica del cuadro resumen de principales indicadores de expectativas de los re
 
 **Cuadro replicado:**
 
-<img src="ocuadro_eeeesp.png" width="600"/>
+<img src="cuadro_eeeesp.png" width="600"/>
 
 ------------------------------------------------------------------------
 
