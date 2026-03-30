@@ -100,7 +100,7 @@ Réplica del gráfico de expectativas de inflación de los resultados de la encu
 
 **Gráfico replicado:**
 
-<img src="outputs/infgenexp.png" width="600"/>
+<img src="infgenexp.png" width="600"/>
 
 ------------------------------------------------------------------------
 
@@ -114,7 +114,7 @@ Réplica del cuadro resumen de principales indicadores de expectativas de los re
 
 **Cuadro replicado:**
 
-<img src="outputs/cuadro_eeeesp.png" width="600"/>
+<img src="ocuadro_eeeesp.png" width="600"/>
 
 ------------------------------------------------------------------------
 
