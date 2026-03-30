@@ -87,6 +87,35 @@ banxico-encuesta-especialistas/
 
 -   Carpeta `outputs/` con productos derivados del pipeline
 
+
+### 📈 Réplica del gráfico de expectativas de inflación
+
+Réplica del gráfico de expectativas de inflación de los resultados de la encuesta de febrero de 2026.
+
+📎 [Ver publicación original de Banco de México](https://www.banxico.org.mx/publicaciones-y-prensa/encuestas-sobre-las-expectativas-de-los-especialis/%7BA6CA823D-41FB-9070-1CF0-05D1067BF7BB%7D.pdf)
+
+**Gráfico original (Banco de México):**
+
+<img src="grafico_exp_banxico.png" width="600"/>
+
+**Gráfico replicado:**
+
+<img src="outputs/infgenexp.png" width="600"/>
+
+------------------------------------------------------------------------
+
+### 📊 Cuadro resumen
+
+Réplica del cuadro resumen de principales indicadores de expectativas de los resultados de la encuesta de febrero de 2026.
+
+**Cuadro original (Banco de México):**
+
+<img src="cuadro_exp_banxico.png" width="600"/>
+
+**Cuadro replicado:**
+
+<img src="outputs/cuadro_eeeesp.png" width="600"/>
+
 ------------------------------------------------------------------------
 
 ## 🪪 Autor y contacto
