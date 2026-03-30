@@ -34,5 +34,9 @@ codebook <- datos %>%
   select(starts_with("NombreRelativo")) %>% 
   distinct() 
 
+# asegurar carpeta de salida ---------------------------------------------
+
+if (!dir.exists("outputs")) dir.create("outputs", recursive = TRUE)
+
 saveRDS(codebook, "outputs/codebook.rds")
 write_xlsx(codebook, "outputs/codebook.xlsx")
