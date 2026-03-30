@@ -53,24 +53,26 @@ Se recomienda ampliamente revisar el **Manual de la base de datos** de Banco de 
 📎 [Manual de microdatos de la encuesta](https://www.banxico.org.mx/publicaciones-y-prensa/encuestas-sobre-las-expectativas-de-los-especialis/microdatos/%7BF495537D-65A0-1EB1-081D-2AF10D01C668%7D.pdf)
 
 ------------------------------------------------------------------------
-
 ## 📁 Estructura del repositorio
 
 banxico-encuesta-especialistas/
 
-├── inputs/ \# Datos de entrada y base consolidada
-
-├── outputs/ \# Resultados y cuadros exportados
-
-├── r/ \# Scripts y utilidades en R
-
-├── README.md \# Este archivo
-
+├── inputs/   # Datos de entrada y base consolidada  
+├── outputs/  # Resultados y cuadros exportados  
+├── r/        # Código en R dividido en scripts y utilidades  
+│   ├── scripts/  # Scripts principales del pipeline  
+│   └── utils/    # Funciones auxiliares (incluye descarga de microdatos)  
+├── README.md # Este archivo  
 └── .gitignore
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Scripts
+
+La carpeta `r/` se divide en:
+
+- **`scripts/`**: contiene los scripts principales que ejecutan el flujo de trabajo del proyecto.
+- **`utils/`**: contiene funciones auxiliares reutilizables. En particular, aquí se encuentra la función que automatiza la descarga y descompresión de los microdatos de Banco de México.
 
 | Script | Descripción | Salidas principales |
 |:----------------------|:-------------------|:----------------------------|
