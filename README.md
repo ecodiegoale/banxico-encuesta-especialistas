@@ -20,6 +20,8 @@ Este proyecto automatiza la **descarga, construcción y análisis de los microda
 
 El objetivo principal es construir un flujo de trabajo reproducible en **R** para actualizar de manera ordenada la base de microdatos, explorar el catálogo de variables disponible y generar algunos productos analíticos básicos, como gráficos de expectativas y cuadros de resultados recientes.
 
+Una ventaja práctica de este repositorio es que permite acceder y descargar directamente los microdatos completos sin necesidad de interactuar con el formulario o encuesta de usuario que Banco de México solicita en su sitio web, facilitando así la automatización y actualización periódica de la información.
+
 El proyecto está diseñado como un pipeline compacto y transparente, orientado a facilitar el seguimiento de variables clave como:
 
 -   inflación general esperada
@@ -45,6 +47,10 @@ El flujo de trabajo está completamente desarrollado en **R**, bajo una lógica 
 -   Construir gráficos descriptivos de expectativas y cuadros resumen con medias y medianas.
 
 -   Exportar resultados para uso posterior en análisis, presentaciones o notas técnicas.
+
+Se recomienda ampliamente revisar el **Manual de la base de datos** de Banco de México disponible en:
+
+📎 [Manual de microdatos de la encuesta](https://www.banxico.org.mx/publicaciones-y-prensa/encuestas-sobre-las-expectativas-de-los-especialis/microdatos/%7BF495537D-65A0-1EB1-081D-2AF10D01C668%7D.pdf)
 
 ------------------------------------------------------------------------
 
